@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, tn.soretras.contestmanagement.domain.User.class.getName());
             createCache(cm, tn.soretras.contestmanagement.domain.Authority.class.getName());
             createCache(cm, tn.soretras.contestmanagement.domain.User.class.getName() + ".authorities");
+            createCache(cm, tn.soretras.contestmanagement.domain.Contest.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

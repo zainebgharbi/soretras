@@ -1,0 +1,34 @@
+{
+  "changelogDate": "20230516194645",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "begindate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "enddate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "level",
+      "fieldType": "elevel",
+      "fieldValues": "BAC,LICENSE,MAITRISE,ING,PHD"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Contest",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
